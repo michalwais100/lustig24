@@ -1,0 +1,88 @@
+project_id: basics
+task_id: 2412-1
+
+questions:
+  - question: "What is GitHub?"
+    answer: "GitHub is a cloud-based platform for source code management and collaboration among developers."
+
+  - question: "What is Git?"
+    answer: "Git is an open-source version control tool that tracks changes in code and supports teamwork."
+
+  - question: "What is the difference between Git and GitHub?"
+    answer: "Git is a local version control tool, while GitHub is an online platform for hosting and sharing code."
+
+  - question: What is a fork in GitHub?
+    options:
+      - A duplicate of a repository
+      - A tool for merging branches
+      - A feature to delete repositories
+      - None of the above
+    correct_answer: A duplicate of a repository
+
+  - question: What is the purpose of a pull request?
+    options:
+      - To copy a repository
+      - To propose changes to a repository
+      - To delete a branch
+      - To commit changes directly to `main`
+    correct_answer: To propose changes to a repository
+
+  - question: How do you clone a repository?
+    options:
+      - By using the `git clone` command
+      - By downloading the repository as a ZIP file
+      - Both of the above
+      - None of the above
+    correct_answer: Both of the above
+
+  - question: What is the difference between `main` and `branch`?
+    options:
+      -"`main` is the default branch; branches are for isolated changes"
+      - There is no difference
+      - Branches are only for testing; `main` is the production version
+      - None of the above
+    correct_answer: "`main` is the default branch; branches are for isolated changes"
+
+  - question: What is a commit?
+    options:
+      - A snapshot of changes
+      - A tool to merge branches
+      - A method to delete files
+      - None of the above
+    correct_answer: A snapshot of changes
+
+  - question: How do you push local changes to GitHub?
+    options:
+      - By using the `git push` command
+      - By using the `git commit` command
+      - By using the `git add` command
+      - None of the above
+    correct_answer: By using the `git push` command
+
+  - question: What is a README file?
+    options:
+      - A file that explains the purpose of a project
+      - A file that contains the project’s code
+      - A file to delete repositories
+      - None of the above
+    correct_answer: A file that explains the purpose of a project
+
+  - question: How do you check the status of your Git repository?
+    options:
+      - By using the `git status` command
+      - By using the `git log` command
+      - By using the `git diff` command
+      - None of the above
+    correct_answer: By using the `git status` command
+
+
+  - question: What is the difference between `git pull` and `git fetch`?
+    options:
+      - "`git pull` updates the working directory; `git fetch` only downloads changes"
+      - "`git fetch` updates the working directory; `git pull` only downloads changes"
+      - Both are identical
+      - None of the above
+    correct_answer: "`git pull` updates the working directory; `git fetch` only downloads changes"
+
+  - question: How to pass to another branch? 
+    answer: By using the command `git checkout`
